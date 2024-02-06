@@ -3,33 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="San Diego, beach, travel" />
     <link rel="stylesheet" href="styles.css" />
     <title>San Diego</title>
   </head>
   <body>
     <header>
       <h1>San Diego, California</h1>
-      <nav>
-        <a href="#intro">Intro</a>
-        <a href="#visit">Visit</a>
-        <a href="#tour">Tour Bus and Pricing</a>
-        <a href="#map">Map</a>
-        <a href="#contact">Contact Us</a>
-      </nav>
+      <div class="navlink" id="nav">
+        <nav>
+          <a href="#intro">Intro</a>
+          <a href="#visit">Visit</a>
+          <a href="#tour">Tour Bus and Pricing</a>
+          <a href="#map">Map</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </div>
     </header>
-    <div class="img1"></div>
+    <div class="img1" id="banner"></div>
 
     <main>
       <section class="intro" id="intro">
         <h2>Welcome to San Diego!</h2>
         <div class="container">
-          <div class="img2">
+          <div class="img2" id="rowi1">
             <img src="beach2.jpeg" alt="beach" />
           </div>
-          <div class="img2">
+          <div class="img2" id="rowi2">
             <img src="tree.jpeg" alt="trees" />
           </div>
-          <div class="img2">
+          <div class="img2" id="rowi3">
             <img src="sandie.jpeg" alt="sandiego" />
           </div>
           <p>
@@ -49,13 +52,13 @@
 
     <section class="visit" id="visit">
       <h2>Sightseeing in San Diego</h2>
-      <div class="container2">
+      <div class="container2" id="container2">
         <!--Balboa Park -->
         <div class="points" id="balboa">
           <div class="img3">
-            <img src="balboa.jpeg" alt="balboa park" />
+            <img src="balboa.jpeg" alt="balboa park" id="balboaimg" />
           </div>
-          <div class="desc">
+          <div class="desc" id="balboadesc">
             <h3>Balboa Park</h3>
             <p>
               Balboa Park boasts an array of museums, gardens, and the San Diego
@@ -71,10 +74,10 @@
         </div>
         <!--Coronado Island -->
         <div class="points" id="coronado">
-          <div class="img3">
+          <div class="img3" id="coronadoimg">
             <img src="coronado.jpeg" alt="hotel" />
           </div>
-          <div class="desc">
+          <div class="desc" id="coronadodesc">
             <h3>Coronado Island</h3>
             <p>
               Coronado is resort city on the border of San Diego, known for its
@@ -91,10 +94,10 @@
         </div>
         <!--Sea World -->
         <div class="points" id="seaworld">
-          <div class="img3">
+          <div class="img3" id="seaworldimg">
             <img src="seaworld.jpeg" alt="seaworld" />
           </div>
-          <div class="desc">
+          <div class="desc" id="seaworlddesc">
             <h3>Sea World</h3>
             <p>
               SeaWorld San Diego is a renowned marine life theme park known for
@@ -116,10 +119,10 @@
         </div>
         <!--Seaport Village -->
         <div class="points" id="seaport">
-          <div class="img3">
+          <div class="img3" id="seaportimg">
             <img src="seaport.jpeg" alt="portofsea" />
           </div>
-          <div class="desc">
+          <div class="desc" id="seaportdesc">
             <h3>Seaport Village</h3>
             <p>
               Seaport Village in San Diego is a
@@ -138,10 +141,10 @@
         </div>
         <!--Monument  -->
         <div class="points" id="cabrillo">
-          <div class="img3">
+          <div class="img3" id="cabrilloimg">
             <img src="monument.jpeg" alt="monument" />
           </div>
-          <div class="desc">
+          <div class="desc" id="cabrillodesc">
             <h3>Cabrillo National Monument</h3>
             <p>
               Cabrillo National Monument commemorates the landing of Juan
@@ -163,7 +166,7 @@
 
     <section class="tour" id="tour">
       <h2>Tour Bus and Pricing</h2>
-      <div class="table">
+      <div class="table" id="table">
         <table>
           <thead>
             <tr>
@@ -195,7 +198,7 @@
 
     <section class="map" id="map">
       <h2>Get directions!</h2>
-      <div class="mapembedd">
+      <div class="mapembedd" id="mape">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429158.12609370967!2d-117.43862883947283!3d32.82412052195878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1707208922888!5m2!1sen!2sus"
           width="600"
@@ -210,24 +213,24 @@
 
     <section class="contact" id="contact">
       <h2>Questions? Contact Us</h2>
-      <div class="form">
+      <div class="form" id="form">
         <form>
-          <div>
+          <div id="row1">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" />
           </div>
 
-          <div>
+          <div id="row2">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" />
           </div>
 
-          <div>
+          <div id="row3">
             <label for="subject">Subject:</label>
             <input type="text" id="subject" name="subject" />
           </div>
 
-          <div>
+          <div id="row4">
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4"></textarea>
           </div>
