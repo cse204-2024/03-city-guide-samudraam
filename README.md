@@ -1,4 +1,3 @@
-# Starter HTML
-This repository provides a blank index.html file. 
+# San Diego
 
-Before submitting, replace the text in this README file with your name and a brief description of your work (just a sentence or two will do).
+San Diego is a amazing place. Take a visit through this site.
