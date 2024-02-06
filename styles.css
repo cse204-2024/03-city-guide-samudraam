@@ -4,14 +4,17 @@ body {
 header {
   overflow: hidden;
   background-color: #000000;
-  padding: 10px;
+  padding: 20px;
   position: sticky;
   top: 0;
 }
-header h1 {
+h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 20px;
+}
+nav {
+  text-align: center;
 }
 
 h2 {
@@ -19,8 +22,16 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*a:hover {
+  color: green;
+}
+
 .img1 {
-  width: 100%;
+  width: auto;
   background: url(sand.jpeg);
   height: 30rem;
   background-repeat: no-repeat;
@@ -43,7 +54,7 @@ h2 {
   border-radius: 1rem;
 }
 .intro {
-  background-color: #cce6fb;
+  background-color: #80bcbd;
   padding: 3rem;
 }
 .intro p {
@@ -52,7 +63,7 @@ h2 {
 }
 
 .visit {
-  background-color: #faecce;
+  background-color: #aad9bb;
   padding: 3rem;
 }
 
@@ -89,4 +100,109 @@ h2 {
 
 ul {
   list-style-type: square;
+}
+.tour {
+  background-color: #d5f0c1;
+  padding: 3rem;
+}
+.table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-style: oblique;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #eac7ff;
+}
+tr:nth-child(odd) {
+  background-color: #ccf4fb;
+}
+tr:nth-child(even) {
+  background-color: #ffd89d;
+}
+
+.contact {
+  text-align: center;
+  padding: 20px;
+  background-color: burlywood;
+}
+
+.form {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+  margin: auto;
+}
+
+input,
+textarea,
+button {
+  width: 80%;
+  max-width: 300px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.map {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f7c9;
+}
+
+.mapembedd {
+  margin: 0 auto;
+  width: 600px;
+  max-width: 100%;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 10px;
+}
+
+footer h1 {
+  text-align: center;
+}
+
+nav a:link {
+  color: #ffffff;
+}
+nav a:visited {
+  color: #8edbff;
+}
+
+.visit a:link {
+  color: #5b5b5b;
+}
+
+.visit a:visited {
+  color: #0800ff;
 }
